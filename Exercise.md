@@ -21,7 +21,7 @@
 
 | Day | Challenge                             | Level        | Progress       |
 | --: | ------------------------------------- | ------------ | -------------- |
-|   1 | E-commerce Cart Pricing               | Intermediate | ☐ Not started |
+|   1 | E-commerce Cart Pricing               | Intermediate | ✅ Done        |
 |   2 | University Course Enrollment          | Intermediate | ☐ Not started |
 |   3 | Digital Wallet Transfers              | Intermediate | ☐ Not started |
 |   4 | Vehicle Rental Pricing Engine         | Intermediate | ☐ Not started |
@@ -74,15 +74,15 @@ Build robust business objects and enforce invariants.
 
 **Tasks**
 
-- [ ] Create Product(sku, name, unit_price) and CartItem(product, quantity).
-- [ ] Implement ShoppingCart.add_item(), remove_item(), subtotal() and total() with a percentage discount.
-- [ ] Reject negative prices, nonpositive quantities, and discounts outside 0–100%.
+- [X] Create Product(sku, name, unit_price) and CartItem(product, quantity).
+- [X] Implement ShoppingCart.add_item(), remove_item(), subtotal() and total() with a percentage discount.
+- [X] Reject negative prices, nonpositive quantities, and discounts outside 0–100%.
 
 **Pass checks**
 
-- [ ] Two units of ₹500 and one unit of ₹200 give subtotal ₹1,200.
-- [ ] A 10% discount gives total ₹1,080.
-- [ ] Adding an existing SKU updates its quantity instead of duplicating it.
+- [X] Two units of ₹500 and one unit of ₹200 give subtotal ₹1,200.
+- [X] A 10% discount gives total ₹1,080.
+- [X] Adding an existing SKU updates its quantity instead of duplicating it.
 
 **Interview reflection:** Why is a cart better modeled with composition than inheritance?
 
