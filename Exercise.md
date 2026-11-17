@@ -22,7 +22,7 @@
 | Day | Challenge                             | Level        | Progress       |
 | --: | ------------------------------------- | ------------ | -------------- |
 |   1 | E-commerce Cart Pricing               | Intermediate | ✅ Done        |
-|   2 | University Course Enrollment          | Intermediate | ☐ Not started |
+|   2 | University Course Enrollment          | Intermediate | ✅ Done        |
 |   3 | Digital Wallet Transfers              | Intermediate | ☐ Not started |
 |   4 | Vehicle Rental Pricing Engine         | Intermediate | ☐ Not started |
 |   5 | Notification Channels                 | Intermediate | ☐ Not started |
@@ -94,15 +94,15 @@ Build robust business objects and enforce invariants.
 
 **Tasks**
 
-- [ ] Create Student, Course(capacity) and University classes.
-- [ ] Implement enroll(student_id, course_id), drop(...), and list_enrollments(...).
-- [ ] Reject duplicate enrollments, unknown IDs and full courses.
+- [X] Create Student, Course(capacity) and University classes.
+- [X] Implement enroll(student_id, course_id), drop(...), and list_enrollments(...).
+- [X] Reject duplicate enrollments, unknown IDs and full courses.
 
 **Pass checks**
 
-- [ ] A course with capacity 2 accepts two students and rejects a third.
-- [ ] Dropping a student makes one place available.
-- [ ] The same student cannot enroll twice.
+- [X] A course with capacity 2 accepts two students and rejects a third.
+- [X] Dropping a student makes one place available.
+- [X] The same student cannot enroll twice.
 
 **Interview reflection:** Where should enrollment rules live: Student, Course or University?
 
