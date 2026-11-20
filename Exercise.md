@@ -23,7 +23,7 @@
 | --: | ------------------------------------- | ------------ | -------------- |
 |   1 | E-commerce Cart Pricing               | Intermediate | ✅ Done        |
 |   2 | University Course Enrollment          | Intermediate | ✅ Done        |
-|   3 | Digital Wallet Transfers              | Intermediate | ☐ Not started |
+|   3 | Digital Wallet Transfers              | Intermediate | ✅ Done        |
 |   4 | Vehicle Rental Pricing Engine         | Intermediate | ☐ Not started |
 |   5 | Notification Channels                 | Intermediate | ☐ Not started |
 |   6 | Cinema Seat Booking                   | Intermediate | ☐ Not started |
@@ -114,15 +114,15 @@ Build robust business objects and enforce invariants.
 
 **Tasks**
 
-- [ ] Create Wallet(owner_id, starting_balance) with nonpublic balance.
-- [ ] Implement deposit(), withdraw() and transfer_to(other_wallet, amount).
-- [ ] Keep immutable-style transaction records; reject invalid and insufficient-funds transfers.
+- [X] Create Wallet(owner_id, starting_balance) with nonpublic balance.
+- [X] Implement deposit(), withdraw() and transfer_to(other_wallet, amount).
+- [X] Keep immutable-style transaction records; reject invalid and insufficient-funds transfers.
 
 **Pass checks**
 
-- [ ] Wallet A ₹1,000 transfers ₹300 to B ₹200: balances become ₹700 and ₹500.
-- [ ] An attempted transfer of ₹5,000 leaves both wallets unchanged.
-- [ ] External changes to retrieved history do not mutate internal history.
+- [X] Wallet A ₹1,000 transfers ₹300 to B ₹200: balances become ₹700 and ₹500.
+- [X] An attempted transfer of ₹5,000 leaves both wallets unchanged.
+- [X] External changes to retrieved history do not mutate internal history.
 
 **Interview reflection:** What does atomicity mean in this in-memory model?
 
